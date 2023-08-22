@@ -13,8 +13,8 @@
 		let upto = 0;
 		function updated() {
 			let count = document.getElementById("counter");
-			count.innerHTML = ;
-			if () {
+			count.innerHTML = ++upto;
+			if (upto== 1000) {
 				clearInterval(counts);
 			}
 		}
