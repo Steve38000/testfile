@@ -29,7 +29,7 @@
 	</style>
 </head>
 <body style="text-align:center">
-	<h1>GeeksforGeeks</h1>
+	<h1>Meta Brains</h1>
 	<p>COUNTS</p>
 	<div id="counter">
 		<!-- counts -->
@@ -39,7 +39,7 @@
 		let counts = setInterval(updated);
 		let upto = 0;
 		function updated() {
-			let count = document.getElementById("counter");
+			let count = document.getElementById("counters");
 			count.innerHTML = ++upto;
 			if (upto === 1000) {
 				clearInterval(counts);
